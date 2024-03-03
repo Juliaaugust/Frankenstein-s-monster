@@ -49,7 +49,7 @@ main {
     }
 
     #answer-triangle {
-        background: url(./answer.png) no-repeat;
+        background: url(./triangle.png) no-repeat;
         cursor: pointer;
         height: 148px;
         left: 126px;
