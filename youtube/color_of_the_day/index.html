@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color</title>
+</head>
+<body>
+    <main>
+        <label for="colorSelector">Будем узнавать...</label>
+        <select id="colorSelector" name="colorSelector">
+            <option value="today" selected>Мой цвет дня</option>
+            <option value="mood">Цвет моего настроения сегодня</option>
+            <option value="association">С каким цветом я ассоциируюсь</option>
+            <option value="eyes">Цвет моих глаз в прошлой жизни</option>
+        </select>
+        <button onclick="setColorAndName()">Узнать!</button>
+        <p id="color-name"></p>
+        <div id="color-block"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
